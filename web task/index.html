@@ -5,22 +5,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Game Dev Landing Page</title>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
-    body {
+    .title {
       font-family: 'Raleway', sans-serif;
+      font-weight: 900;
+      font-size: 30pt;
+    }
+    .font{
+      font-family: 'Poppins',sans-serif;
     }
     .btn {
       background-color: #023047;
       color: white;
-      border-radius: 10px;
+      border-radius: 20px;
     }
     .btn1 {
       background-color: #DA722C;
       color: white;
-      border-radius: 10px;
+      border-radius: 20px;
     }
     .hero {
       background: linear-gradient(0, #26308C, #6F7DFB);
@@ -180,20 +185,18 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+          <div class="font collapse navbar-collapse justify-content-end" id="navbarContent">
             <ul class="navbar-nav mb-2 mb-lg-0 gap-3 align-items-lg-center">
              <li class="nav-item">
-               <a class="nav-link text-white" href="#">Home</a>
+               <a class="nav-link text-white" href="#">Abot</a>
              </li>
               <li class="nav-item">
-               <a class="nav-link text-white" href="#">Courses</a>
+               <a class="nav-link text-white" href="#">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">About</a>
+                <a class="nav-link text-white" href="#">Our Work</a>
               </li>
-              <li class="nav-item">
-               <a class="nav-link text-white" href="#">Contact</a>
-              </li>
+              
               <li class="nav-item">
                <a class="btn ms-lg-3" href="#">Enroll Now</a>
                </li>
@@ -207,12 +210,12 @@
     <div class="row align-items-stretch position-relative">
       <!-- Left Text and Stats -->
       <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-start position-relative">
-        <h1 class="display-5 fw-bold">Learn the art of <span class="d-block">Game Dev</span></h1>
-        <p class="my-4" style="max-width: 500px;">This is a comprehensive course on Game Development. You will learn everything from generating an idea to publishing your games to different platforms.</p>
-        <a class="btn btn1 mb-3" href="#">Enrol Now</a>
+        <h1 class="title display-5  ">Learn the art of <span class="d-block">Game Dev</span></h1>
+        <p class="font my-4" style="max-width: 500px;">This is a comprehensive course on Game Development. You will learn everything from generating an idea to publishing your games to different platforms.</p>
+        <a class="font btn btn1 mb-3" href="#">Enrol Now</a>
 
         <!-- Floating Stats -->
-        <div class="floating-stats d-flex flex-column gap-3">
+        <div class="font floating-stats d-flex flex-column gap-3">
           <div class="stat-card text-center">
             <strong class="fs-4">32K+</strong><br><small>Students Enrolled</small>
           </div>
@@ -241,7 +244,7 @@
         <div class="vertical-line"></div>
 
         <!-- Testimonial 1 -->
-        <div class="testimonial-card card1 mb-5">
+        <div class="font testimonial-card card1 mb-5">
          <div class="testimonial-header bg-primary text-white p-3">
            <p class="mb-0">This is a great course. It helped me a lot. Thank you :)</p>
          </div>
@@ -258,7 +261,7 @@
 
 
         <!-- Testimonial 2 -->
-        <div class="testimonial-card card2">
+        <div class="font testimonial-card card2">
           <div class="testimonial-header bg-warning text-white p-3">
             <p class="mb-0">Amazing Work! Well done!</p>
           </div>
@@ -277,10 +280,10 @@
 
       <!-- Right: Description -->
       <div class="col-lg-6">
-        <h1 class="fw-bold mb-4">What our students say</h1>
-        <p class="text-muted">All students get access to all the videos and also the source code of the projects.</p>
-        <p class="text-muted">You will also have access to a private Discord channel where you can discuss your doubts.</p>
-        <a href="#" class="btn btn1 mt-3 px-4">Learn More</a>
+        <h1 class="title mb-4">What our students say</h1>
+        <p class="font text-muted">All students get access to all the videos and also the source code of the projects.</p>
+        <p class="font text-muted">You will also have access to a private Discord channel where you can discuss your doubts.</p>
+        <a href="#" class="font btn btn1 mt-3 px-4">Learn More</a>
       </div>
     </div>
   </div>
@@ -290,29 +293,29 @@
 <!-- Courses Section -->
 <section class="courses text-center" >
   <div class="container">
-    <h2 class="mb-5">Our Courses</h2>
-    <div class="row justify-content-around">
+    <h2 class="title mb-5 " >Our Courses</h2>
+    <div class="font row justify-content-around">
       <div class="col-md-6 mb-4">
         <div class="card text-dark course overflow-hidden">
           <img src="images/Rectangle.png" class="card-img-top" alt="Game Design">
           <div class="card-body">
-            <h2 class="card-title">Game Design Essentials</h2>
+            <h4 class="card-title fw-bolder">Game Design Essentials</h4>
             <div class="horizontal-line"></div>
           </div>
         </div>
     
       </div>
-      <div class="col-md-6 mb-4">
+      <div class="font col-md-6 mb-4">
        <div class="card text-dark course overflow-hidden">
           <img src="images/Rectangle 7.png" class="card-img-top" alt="Unity Fundamentals">
           <div class="card-body">
-            <h2 class="card-title">Unity Game Engine Fundamentals</h2>
+            <h4 class="card-title fw-bolder">Unity Game Engine Fundamentals</h4>
             <div class="horizontal-line"></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="text-end mt-3">
+    <div class="font text-end mt-3">
       <a class="btn btn1 mt-3" href="#">All Courses</a>
     </div>
   </div>
@@ -321,16 +324,16 @@
 <!-- App Download Section -->
 <section class="py-5 text-center">
   <div class="container"> 
-    <h1 class="mb-6 fw-bolder">Get our App</h1>
-    <h5 class="mb-4">You can use our App for better experience on smartphones</h5>
-    <div class="d-flex justify-content-center gap-4">
-      <div class="app d-flex align-items-center gap-2">
-        <img src="images/app store.png" alt="App Store" width="50">
-        <h3>App Store</h3>
+    <h1 class="title mb-4 ">Get our App</h1>
+    <h5 class="font mb-5">You can use our App for better experience on smartphones</h5>
+    <div class="font d-flex justify-content-center gap-4">
+      <div class="app d-flex align-items-center gap-3">
+        <img src="images/app store.png" alt="App Store" width="40">
+        <h6>App Store</h6>
       </div>
-      <div class="app d-flex align-items-center gap-2" >
-        <img src="images/Group 8.png" alt="Play Store" width="50">
-        <h3>Play Store</h3>
+      <div class="app d-flex align-items-center gap-3" >
+        <img src="images/Group 8.png" alt="Play Store" width="40">
+        <h6>Play Store</h6>
       </div>
     </div>
   </div>
@@ -338,7 +341,7 @@
 
 <!-- Footer -->
 <footer class="footer-section py-5 text-white">
-  <div class="container">
+  <div class="font container">
     <div class="row justify-content-center">
       <!-- Quick Links -->
       <div class="col-md-3 mb-4">
@@ -371,24 +374,24 @@
         </div>
         <form class="w-100" style="max-width: 600px;">
           <div class="mt-4">
-  <!-- Inline layout for tablet and desktop (≥768px) -->
-  <div class="position-relative d-none d-sm-none d-md-block">
-    <input type="email" class="form-control pe-5 ps-4" placeholder="Email Address" style="height: 30px;">
-    <button type="submit"
-      class="btn text-white px-4 position-absolute end-0 top-0 mt-1 me-1 d-flex align-items-center"
-      style="background-color: #003344; height: 25px;">
-      Subscribe
-    </button>
-  </div>
+           <!-- Inline layout for tablet and desktop (≥768px) -->
+           <div class="position-relative d-none d-sm-none d-md-block">
+             <input type="email" class="form-control pe-5 ps-4" placeholder="Email Address" style="height: 30px;">
+             <button type="submit"
+               class="btn text-white px-4 position-absolute end-0 top-0 mt-1 me-1 d-flex align-items-center"
+                 style="background-color: #003344; height: 25px;">
+                 Subscribe
+              </button>
+           </div>
 
-  <!-- Stacked layout for small screen (<768px) -->
-  <div class="d-block d-sm-block d-md-none">
-    <input type="email" class="form-control ps-3 mb-2" placeholder="Email Address">
-    <button type="submit" class="btn text-white w-100" style="background-color: #003344;">
-      Subscribe
-    </button>
-  </div>
-</div>
+            <!-- Stacked layout for small screen (<768px) -->
+           <div class="d-block d-sm-block d-md-none">
+             <input type="email" class="form-control ps-3 mb-2" placeholder="Email Address">
+             <button type="submit" class="btn text-white w-100" style="background-color: #003344;">
+               Subscribe
+             </button>
+            </div>
+           </div>
 
         </form>
 
